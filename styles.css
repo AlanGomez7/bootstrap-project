@@ -1,0 +1,50 @@
+#nav-id .carousel{
+    background-color: #FC8019;
+}
+
+#nav-id{
+    position: sticky;
+    top:0;
+    z-index: 1;
+    background-color: white;
+    border-radius: 16px;
+}
+
+.carousel-item img {
+    height: 250px;
+    object-fit: cover;
+}
+
+@media (min-width: 768px) {
+    .carousel-item img {
+        height: 750px;
+    }
+    .carousel-caption{
+        font-size: 3rem;
+    }
+
+}
+
+
+.carousel-caption {
+    /* background-color: white;
+    border-radius: 16px;
+    padding: 16px; */
+    /* color: black; */
+    top: 50%;
+    transform: translateY(-50%);
+    bottom: initial;
+    font-size: 2.5rem;
+    width: 400PX ;
+}
+
+#option-box{
+    display: flex;
+    height: 50px;
+}
+
+.option-img{
+    height: 200px;
+    width: 200px;
+    background-size: contain;
+}
