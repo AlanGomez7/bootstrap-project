@@ -1,0 +1,17 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+.about-hero {
+  height: 60vh;
+  background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+              url("images/Caraousal/indian.jpg") center/cover no-repeat;
+}
+
+.features-section .feature-box {
+  transition: 0.3s ease;
+}
+
+.features-section .feature-box:hover {
+  transform: translateY(-10px);
+}
